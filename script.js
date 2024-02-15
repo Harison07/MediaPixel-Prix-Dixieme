@@ -11,8 +11,8 @@ function calculate() {
     }
     var resultNumeric = number * 0.8;
     var resultLetter = convertToLetter(resultNumeric);
-    document.getElementById('resultNumeric').innerText = "80% de " + number + " est : " + resultNumeric;
-    document.getElementById('resultLetter').innerText = "En lettres : " + resultLetter;
+    document.getElementById('resultNumeric').innerText = "80% de " + number + " est : " + resultNumeric + " Ariary";
+    document.getElementById('resultLetter').innerText = " " + resultLetter + " Ariary";
 }
 
 function convertToLetter(num) {
